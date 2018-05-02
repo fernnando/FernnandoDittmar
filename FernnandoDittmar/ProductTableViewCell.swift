@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OrderTableViewCell: UITableViewCell {
+class ProductTableViewCell: UITableViewCell {
 
     @IBOutlet weak var lbPrice: UILabel!
     @IBOutlet weak var lbName: UILabel!

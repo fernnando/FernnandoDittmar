@@ -13,9 +13,9 @@
 		5C265AC5209681D50080A021 /* FernnandoDittmar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AC3209681D50080A021 /* FernnandoDittmar.xcdatamodeld */; };
 		5C265AC7209681D60080A021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C265AC6209681D60080A021 /* Assets.xcassets */; };
 		5C265ACA209681D60080A021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C265AC8209681D60080A021 /* LaunchScreen.storyboard */; };
-		5C265AD220968FF00080A021 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD120968FF00080A021 /* OrdersTableViewController.swift */; };
-		5C265AD6209690990080A021 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD5209690990080A021 /* OrderTableViewCell.swift */; };
-		5C265AD8209693BE0080A021 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD7209693BE0080A021 /* AddOrderViewController.swift */; };
+		5C265AD220968FF00080A021 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD120968FF00080A021 /* ProductsTableViewController.swift */; };
+		5C265AD6209690990080A021 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD5209690990080A021 /* ProductTableViewCell.swift */; };
+		5C265AD8209693BE0080A021 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD7209693BE0080A021 /* AddProductViewController.swift */; };
 		5CCDFA1720992F2100286F3D /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDFA1620992F2100286F3D /* ViewController+CoreData.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +28,9 @@
 		5C265AC6209681D60080A021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C265AC9209681D60080A021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C265ACB209681D60080A021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C265AD120968FF00080A021 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
-		5C265AD5209690990080A021 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
-		5C265AD7209693BE0080A021 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		5C265AD120968FF00080A021 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		5C265AD5209690990080A021 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		5C265AD7209693BE0080A021 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
 		5CCDFA1620992F2100286F3D /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,13 +64,13 @@
 		5C265ABB209681D50080A021 /* FernnandoDittmar */ = {
 			isa = PBXGroup;
 			children = (
-				5C265AD7209693BE0080A021 /* AddOrderViewController.swift */,
+				5C265AD7209693BE0080A021 /* AddProductViewController.swift */,
 				5C265ABC209681D50080A021 /* AppDelegate.swift */,
 				5CCDFA1620992F2100286F3D /* ViewController+CoreData.swift */,
 				5C265ABE209681D50080A021 /* ViewController.swift */,
 				5C265AC0209681D50080A021 /* Main.storyboard */,
-				5C265AD120968FF00080A021 /* OrdersTableViewController.swift */,
-				5C265AD5209690990080A021 /* OrderTableViewCell.swift */,
+				5C265AD120968FF00080A021 /* ProductsTableViewController.swift */,
+				5C265AD5209690990080A021 /* ProductTableViewCell.swift */,
 				5C265AC6209681D60080A021 /* Assets.xcassets */,
 				5C265AC8209681D60080A021 /* LaunchScreen.storyboard */,
 				5C265ACB209681D60080A021 /* Info.plist */,
@@ -150,13 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C265AD6209690990080A021 /* OrderTableViewCell.swift in Sources */,
-				5C265AD220968FF00080A021 /* OrdersTableViewController.swift in Sources */,
+				5C265AD6209690990080A021 /* ProductTableViewCell.swift in Sources */,
+				5C265AD220968FF00080A021 /* ProductsTableViewController.swift in Sources */,
 				5C265ABF209681D50080A021 /* ViewController.swift in Sources */,
 				5CCDFA1720992F2100286F3D /* ViewController+CoreData.swift in Sources */,
 				5C265AC5209681D50080A021 /* FernnandoDittmar.xcdatamodeld in Sources */,
 				5C265ABD209681D50080A021 /* AppDelegate.swift in Sources */,
-				5C265AD8209693BE0080A021 /* AddOrderViewController.swift in Sources */,
+				5C265AD8209693BE0080A021 /* AddProductViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

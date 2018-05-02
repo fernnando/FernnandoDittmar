@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class OrdersTableViewController: UITableViewController {
+class ProductsTableViewController: UITableViewController {
     
     var fetchedResultController: NSFetchedResultsController<Product>!
     var label = UILabel()
@@ -66,7 +66,7 @@ class OrdersTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! OrderTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ProductTableViewCell
         
         guard let product = fetchedResultController.fetchedObjects?[indexPath.row] else {
             return cell
@@ -127,7 +127,7 @@ class OrdersTableViewController: UITableViewController {
 }
 
 
-extension OrdersTableViewController: NSFetchedResultsControllerDelegate {
+extension ProductsTableViewController: NSFetchedResultsControllerDelegate {
     func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
         switch type {
         case .delete:

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddOrderViewController: UIViewController {
+class AddProductViewController: UIViewController {
 
     @IBOutlet weak var btnRegister: UIButton!
     @IBOutlet weak var tfProductName: UITextField!
