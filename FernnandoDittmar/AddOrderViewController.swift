@@ -15,6 +15,10 @@ class AddOrderViewController: UIViewController {
     @IBOutlet weak var tfState: UITextField!
     @IBOutlet weak var tfTotalPrice: UITextField!
     @IBOutlet weak var ivCover: UIImageView!
+    
+    
+    var product: Product!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,7 +30,26 @@ class AddOrderViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func addEditProduct(_ sender: UIButton) {
+        if product == nil{
+            product = Product(context: context)
+        }
+        
+        product.name = tfProductName.text
+        product.totalPrice = (tfTotalPrice.text! as NSString).floatValue
+        
+        do{
+            try context.save()
+        } catch{
+            print(error.localizedDescription)
+        }
+        
+        navigationController?.popViewController(animated: true)
+        
+    }
+    
+    @IBAction func addState(_ sender: UIButton) {
+    }
     /*
     // MARK: - Navigation
 

@@ -24,5 +24,13 @@ class OrderTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func prepare(with product: Product){
+        lbName.text = product.name
+        lbPrice.text = String(describing: product.totalPrice)
+        if let image = product.picture as? UIImage {
+            ivOrder.image = image
+        }
+    }
 
 }

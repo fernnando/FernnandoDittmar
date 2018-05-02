@@ -16,6 +16,7 @@
 		5C265AD220968FF00080A021 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD120968FF00080A021 /* OrdersTableViewController.swift */; };
 		5C265AD6209690990080A021 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD5209690990080A021 /* OrderTableViewCell.swift */; };
 		5C265AD8209693BE0080A021 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C265AD7209693BE0080A021 /* AddOrderViewController.swift */; };
+		5CCDFA1720992F2100286F3D /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDFA1620992F2100286F3D /* ViewController+CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5C265AD120968FF00080A021 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		5C265AD5209690990080A021 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		5C265AD7209693BE0080A021 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		5CCDFA1620992F2100286F3D /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 		5C265AB0209681D50080A021 = {
 			isa = PBXGroup;
 			children = (
-				5C265AD7209693BE0080A021 /* AddOrderViewController.swift */,
 				5C265ABB209681D50080A021 /* FernnandoDittmar */,
 				5C265ABA209681D50080A021 /* Products */,
 			);
@@ -63,7 +64,9 @@
 		5C265ABB209681D50080A021 /* FernnandoDittmar */ = {
 			isa = PBXGroup;
 			children = (
+				5C265AD7209693BE0080A021 /* AddOrderViewController.swift */,
 				5C265ABC209681D50080A021 /* AppDelegate.swift */,
+				5CCDFA1620992F2100286F3D /* ViewController+CoreData.swift */,
 				5C265ABE209681D50080A021 /* ViewController.swift */,
 				5C265AC0209681D50080A021 /* Main.storyboard */,
 				5C265AD120968FF00080A021 /* OrdersTableViewController.swift */,
@@ -150,6 +153,7 @@
 				5C265AD6209690990080A021 /* OrderTableViewCell.swift in Sources */,
 				5C265AD220968FF00080A021 /* OrdersTableViewController.swift in Sources */,
 				5C265ABF209681D50080A021 /* ViewController.swift in Sources */,
+				5CCDFA1720992F2100286F3D /* ViewController+CoreData.swift in Sources */,
 				5C265AC5209681D50080A021 /* FernnandoDittmar.xcdatamodeld in Sources */,
 				5C265ABD209681D50080A021 /* AppDelegate.swift in Sources */,
 				5C265AD8209693BE0080A021 /* AddOrderViewController.swift in Sources */,
